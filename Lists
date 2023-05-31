@@ -1,0 +1,50 @@
+>>> my_list =[1,2,3]
+>>> len(my_list)
+3
+>>> my_list =['STRING',100.23,2]
+>>> len(my_list)
+3
+>>> my_list[0]
+'STRING'
+>>> my_list[1:]
+[100.23, 2]
+>>> my_list
+['STRING', 100.23, 2]
+>>> another_list=[4,5]
+>>> my_list+another_list
+['STRING', 100.23, 2, 4, 5]
+>>> new_list=my_list+another_list
+>>> new_list
+['STRING', 100.23, 2, 4, 5]
+>>> new_list[0] ='ONE ALL CAPS'
+>>> new_list
+['ONE ALL CAPS', 100.23, 2, 4, 5]
+>>> new_list.append('six')
+>>> new_list
+['ONE ALL CAPS', 100.23, 2, 4, 5, 'six']
+>>> new_list.pop(2)
+2
+>>> new_list
+['ONE ALL CAPS', 100.23, 4, 5, 'six']
+>>> popped_item=new_list.pop()
+>>> popped_item
+'six'
+>>> new_list
+['ONE ALL CAPS', 100.23, 4, 5]
+>>> new_list.pop(0)
+'ONE ALL CAPS'
+>>> new_list
+[100.23, 4, 5]
+>>> new_list =['a','w','e','x','b']
+>>> num_list =[1,2,3,4]
+>>> num_list.sort()
+>>> num_list
+[1, 2, 3, 4]
+>>> new_list
+['a', 'w', 'e', 'x', 'b']
+>>> new_list.sort()
+>>> new_list
+['a', 'b', 'e', 'w', 'x']
+>>> new_list.reverse()
+>>> new_list
+['x', 'w', 'e', 'b', 'a']
