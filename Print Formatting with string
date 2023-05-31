@@ -1,0 +1,23 @@
+#Float Formatting follows"{value:width.precision f}"
+>>> print('this is a string{}'.format('INSERTED'))
+this is a stringINSERTED
+>>> print('The {} {} {}'.format('fox','brown','quick'))
+The fox brown quick
+>>> print('The {2} {1} {0}'.format('fox','brown','quick'))
+The quick brown fox
+>>> print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick')
+The quick brown fox
+>>> result =100/44
+>>> result
+2.272727272727273
+>>> print("The result was {r}".format(r=result))
+The result was 2.272727272727273
+>>> print("The result was {r:1.3f}".format(r=result))
+The result was 2.273
+>>> print("The result was {r:10.3f}".format(r=result))
+The result was      2.273
+>>> print("The result was {r:10.5f}".format(r=result))
+The result was    2.27273
+>>> n ='Jose'
+>>> print(f'Hello,his name is {n}')
+Hello,his name is Jose
