@@ -1,0 +1,14 @@
+>>> "how is life?"
+'how is life?'
+>>> print("hello")
+hello
+>>> print("hello \n world")
+hello
+ world
+>>> print("hello   \nworld")
+hello
+world
+>>> print("hello   \tworld")
+hello           world
+>>> len("hello   \tworld")
+14
