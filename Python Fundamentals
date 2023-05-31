@@ -1,0 +1,8 @@
+int-integer(2,3)
+float-floating point(2.3,2.4)
+srt-string("hello")
+list[10,"hello",200]
+dict-Dictionaries{"mykey"}
+tup-tuples(10,"hello",200)
+set{"a","b"}
+bool-boolean true or false
