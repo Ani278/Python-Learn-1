@@ -1,0 +1,25 @@
+name ="Sam"
+>>> name[1:]
+'am'
+>>> last_leters=name[1:]
+>>> last_leters
+'am'
+>>> 'P'+last_leters
+'Pam'
+>>> x ="hello world"
+>>> x+ "how r u?"
+'hello worldhow r u?'
+>>> x = x+"how r u?"
+>>> letter ='z'
+>>> letter*20
+'zzzzzzzzzzzzzzzzzzzz'
+>>> x.upper(when () is not put code will not run)*
+<built-in method upper of str object at 0x0000022F30E62BF0>
+>>> x.upper()
+'HELLO WORLDHOW R U?HOW R U?'
+>>> x.lower()
+'hello worldhow r u?how r u?'
+>>> x.split()
+['hello', 'worldhow', 'r', 'u?how', 'r', 'u?']
+>>> x.split('h')
+['', 'ello world', 'ow r u?', 'ow r u?']
