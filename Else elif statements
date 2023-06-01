@@ -1,0 +1,24 @@
+hungry= True
+
+if hungry:
+    print('FEED ME!')
+else:
+    print("I AM NOT HUNGRY")
+
+
+loc= 'Store'
+if loc =='Auto Shop':
+    print("cars are cool")
+elif loc=='Store':
+    print("Welcome to the store")
+else:
+    print("I do not know much")
+
+name ='Sammy'
+
+if name =='franky':
+    prinT("hELLO FRANKY")
+elif name =='Sammy':
+    print("Hello sammy")
+else:
+    print("Ask for the name?")
