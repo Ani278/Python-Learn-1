@@ -1,0 +1,15 @@
+>>> 2 ==2
+True
+>>> 1==2
+False
+>>> 'hello'=='bye'
+False
+>>> 'hello'=='Bye'
+False
+>>> '2'==2
+False
+>>> 2.0==2
+True
+
+>>> 3 != 3
+False
