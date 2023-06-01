@@ -1,0 +1,21 @@
+%%write_file('myfile.txt')
+Hello  is a text file
+myfile =open('myfile.txt')
+pwd
+myfile.read()
+myfile.seek(0)
+contents = myfile.read()
+myfile.readlines()
+myfile.close()
+with open('myfile.txt') as my_new_file:
+    contents = my_new_file.read()
+with open('myfile.txt',mode='r,w,a,r+,w+') as myfile:
+    contents = myfile.read()
+with open('myfile.txt',mode='r') as f:
+    print(f.read())
+with open('my_new_file.txt',mode='a') as f:
+    f.write('Hello')
+  with open('my_new_file.txt',mode='w') as f:
+    f.write('I created this file!')
+    with open('my_new_file.txt',mode='r') as f:
+        print(f.read())
