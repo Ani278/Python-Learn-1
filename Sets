@@ -1,3 +1,4 @@
+only adds unique values
 >>> myst= set()
 >>> myst
 set()
