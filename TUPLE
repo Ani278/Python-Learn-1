@@ -1,0 +1,24 @@
+ t=(1,2,3)
+>>> type(t)
+<class 'tuple'>
+>>> type(mylist)
+<class 'list'>
+>>> len(t)
+3
+>>> t
+(1, 2, 3)
+>>> tt =('one',2)
+>>> t[0]
+1
+>>> t[-1]
+3
+>>> t=('a','a','b')
+>>> t.count('a')
+2
+>>> t.index('a')
+0
+>>> mylist
+[1, 2, 3]
+>>> mylist[0] =  'NEW'
+>>> mylist
+['NEW', 2, 3]
