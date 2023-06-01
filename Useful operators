@@ -1,0 +1,56 @@
+mylist =[1,2,3]
+for num in range(0,11,12):
+    print(num)
+
+list(range(0,11,2))
+
+index_count=0
+for letter in'abcde':
+    print('At index{} the letter is{}'.format(indes_count,letter))
+    index_count +=1
+
+index_count = 0
+word= 'abcde'
+for letter in word:
+    print(word[index_count])
+    index_count +=1
+
+
+word= 'abcde'
+for index,item in enumerate(word):
+    print(item)
+    print(index)
+
+mylist1 =[1,2,3,4,5]
+mylist2 =['a','b','c','d']
+mylist3 =[100,200,300,400]
+for item in zip(mylist1,mylist2,mylist3):
+    print(item)
+
+list(zip(mylist1,mylist2,mylist3))
+'x'in[1,2,3]
+'x in ['x','y','z']
+'a' in 'a world'
+'mykey' in{'mykey':345}
+d= {'mykey':345}
+345 in d.keys()
+
+mylist=[10,20,30,40,50]
+min(mylist)
+max(mylist)
+
+from random import shuffle
+mylist =[3,4,5,6,7,8,9,10]
+shuffle(mylist)
+mylist
+
+random_list =shuffle(mylist)
+type(random_list)
+
+from random import randint
+randint(0,100)
+mynum = randint(0,10)
+mynum
+
+result=input('enter a number here')
+result
