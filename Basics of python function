@@ -1,0 +1,39 @@
+def say_hello():
+    print("hello")
+    print("how are")
+    print("you")
+say_hello()
+
+def say_hello(name):
+    print(f'Hello {name}')
+say_hello('Jose')
+
+def say_hello(name='Default'):
+    print(f'Hello {name}')
+say_hello()
+
+def add_num(num1,num2):
+    return num1+num2
+result = add_num(10,20)
+result
+
+def print_result(a,b):
+    return a+b
+print_result(10,20)
+
+result
+type(result)
+
+result = return_result(10,20)
+
+def myfunc(a,b):
+    print(a+b)
+    return a+b
+
+result = myfunc(10,20)
+result
+def sum_numbers(num1,num2):
+    return num1+num2
+sum_numbers(10,20)
+
+sum_numbers('10','20')
