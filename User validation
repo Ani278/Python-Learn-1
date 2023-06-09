@@ -1,0 +1,32 @@
+def user_choice():
+    choice='WRONG'
+
+    while choice.isdigit== False:
+        choice = input("pls enter a number (0-10):")
+        if choice.isdigit()==False:
+            print("Sorry that is not a digit!")
+        
+    return int(choice)
+        
+user_choice()2
+
+result='Wrong value'
+acceptablevalue=[1,2,3]
+result in acceptablevalue
+result not in acceptablevalue
+
+def user_choice():
+    choice='WRong'
+    acceptable_range=range(0,10)
+    within_range= False
+    while choice.isdigit== False or within_range==False:
+        choice = input("pls enter a number (0-10):")
+        if choice.isdigit()==False:
+            print("Sorry that is not a digit!")
+            if choice.isdigit()==True:
+                if int(choice) in acceptable_range:
+                    within_range = True
+                else:
+                    print("Sorry you areout of acceptable range")
+                    within_range=False
+user_choice() 
