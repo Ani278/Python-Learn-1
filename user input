@@ -1,0 +1,9 @@
+result =input("please enter a value: ")
+type(result)
+result= input("enter Value")
+result_int=int(result)
+type(result_int)
+type(2.3)
+position_index= int(input("choose an index position:"))
+row1[position_index]
+result= ("enter a number:")
