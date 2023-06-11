@@ -1,0 +1,23 @@
+class Dog():
+    species ='mammal'
+    def __init__(self, name):
+        self.name=name
+my_dog=Dog(name='sam')
+
+
+
+def bark(self):
+    print('woof! My name is {} and the number is {}'.format(self.name,number))
+my_dog.bark(10)
+
+
+class Circle():
+    pi=3.14
+    def __init__(self,radius=1):
+        self.radius=radius
+        def get_circumference(self):
+            return self.radius*self.pi*2
+my_circle=Circle(30)
+my_circle.pi
+my_circle.radius
+my_circle.get_circumference()
